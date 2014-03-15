@@ -440,6 +440,7 @@
             // 
             // chart
             // 
+            this.chart.BackColor = System.Drawing.SystemColors.Control;
             chartArea1.AxisX.LabelStyle.Format = "D";
             chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.LightGray;
             chartArea1.AxisX.Title = "Date";
